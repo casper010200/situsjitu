@@ -733,3 +733,34 @@ animation: rotate 2s linear infinite;
     transform: rotate(360deg);
   }
 }
+
+
+.banner-custom-el-m {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.banner-custom-el-m img {
+max-width: 100%;
+
+}
+
+.games-lists-icons {
+display: flex;
+justify-content: space-between;
+gap: .5rem;
+align-items: center;
+background: rgb(0,0,0,0.8);
+padding: 1rem;
+margin-bottom: 1rem;
+border-radius: 1rem;
+border-bottom: 4px solid var(--t2-color);
+}
+
+.games-lists-icons img {
+width: 4.5rem;
+
+}
